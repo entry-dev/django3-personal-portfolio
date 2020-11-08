@@ -1,0 +1,18 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+    <h1><p>Ivan Krstić</p></h1>
+    <h3><h4>Entry level Python programmer,knowing couple of frameworks like Django and Bootstrap. Living in Nish,Serbia.</h4>
+    <br>
+    <br>
+
+    {% for project in projects %}
+
+    <h3>{{ project.title }}</h3>
+    <br>
+    <h2><p style="color:#FF7A7A">{{ project.description }}</p></h2>
+    <br>
+    <img src="{{ project.image.url }}" width=400 height=300>
+
+    {% endfor %}
+  {% endblock %}

@@ -1,0 +1,28 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+h4 {
+  color: #AD4F00;
+}
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+.navbar-nav .nav-link {
+    color: rgba(154, 205, 50) !important;
+}
+.navbar-nav .nav-link:hover {
+    color: rgba(0, 128, 128) !important;
+}
+.mydiv {
+  border-radius: 10px;
+  width: 0px;
+  height: 0px;
+  background: red;
+  transition: height 1s;
+  transition: weight 1s;
+}
+.mydiv:hover {
+  width: 65px;
+  height: 22.5px;
+}
